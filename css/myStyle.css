@@ -1,0 +1,25 @@
+@charset "utf-8";
+/* CSS Document */
+
+#home {
+  background: url(http://www.cf-mil-oss.org/images/camo.jpg) no-repeat center center fixed; 
+  display: table;
+  height: 100%;
+  position: relative;
+  width: 100%;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.frontPage {
+	vertical-align: middle;
+	text-align: center;
+  margin-top: 50px;
+  margin-bottom: 60px;
+}
+
+.sponsors {
+  background-color: #E5E5E5;
+}
