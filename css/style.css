@@ -1,0 +1,140 @@
+ @charset "utf-8";
+/* CSS Document */
+
+/* general styles */
+html, body {
+  height: 100%;
+  width: 100%;
+}
+
+.whiteText {
+  color: #FFFFFF;
+}
+
+.whiteTextShadow {
+  color: #FFFFFF;
+  text-shadow: #000 1px 1px 2px;
+}
+
+/* padded section */
+.pad-section {
+  padding: 50px 0;
+}
+.pad-section img {
+  width: 100%;
+}
+
+/* vertical-centered text */
+.text-vcenter {
+  display: table-cell;
+  text-align: center;
+  vertical-align: middle;
+}
+.text-vcenter h1 {
+  font-size: 4.5em;
+  font-weight: 700;
+  margin: 0;
+  padding: 0;
+}
+
+/* additional sections */
+#home {
+  background: url(http://www.cf-mil-oss.org/images/camo.jpg) no-repeat center center fixed; 
+  display: table;
+  height: 100%;
+  position: relative;
+  width: 100%;
+  padding-bottom: 20px;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+#events {
+  background: url(http://www.cf-mil-oss.org/images/camo8.jpg) no-repeat center center fixed; 
+  display: table;
+  height: 400px;
+  position: relative;
+  width: 100%;
+  padding: 50px;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+#about {
+  background: url(http://www.cf-mil-oss.org/images/camo9.jpg) no-repeat center center fixed; 
+  display: table;
+  height: 100%;
+  position: relative;
+  width: 100%;
+  padding: 50px;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.lowOpacity {
+  opacity: 0.5;
+}
+
+#home .panel {
+  opacity: 0.5;
+}
+
+#information .panel {
+  opacity: 0.85;
+}
+
+#portfolio {
+  background: url(http://www.cf-mil-oss.org/images/camo.jpg) no-repeat center center fixed; 
+  display: table;
+  height: 400px;
+  position: relative;
+  width: 100%;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+#social {
+  background: url(http://www.cf-mil-oss.org/images/camo2.jpg) no-repeat center center fixed; 
+  display: table;
+  height: 400px;
+  position: relative;
+  width: 100%;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+#google_map {
+  height: 500px;
+}
+
+footer {
+  padding: 20px 0;
+}
+footer .glyphicon {
+  color: #333333;
+  font-size: 60px;
+}
+footer .glyphicon:hover {
+  color: #306d9f;
+}
+
+.frontPage {
+  vertical-align: middle;
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.sponsors {
+  background-color: #E5E5E5;
+}
