@@ -39,7 +39,7 @@ html, body {
 
 /* additional sections */
 #home {
-  background: url(http://www.cf-mil-oss.org/images/camo.jpg) no-repeat center center fixed; 
+  background: url(http://www.cf-mil-oss.org/images/camo8.jpg) no-repeat center center fixed; 
   display: table;
   height: 100%;
   position: relative;
@@ -52,12 +52,12 @@ html, body {
 }
 
 #events {
-  background: url(http://www.cf-mil-oss.org/images/camo8.jpg) no-repeat center center fixed; 
+  background: url(http://www.cf-mil-oss.org/images/camo.jpg) no-repeat center center fixed; 
   display: table;
-  height: 400px;
+  height: 250px;
   position: relative;
   width: 100%;
-  padding: 50px;
+  padding: 10px;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -82,11 +82,11 @@ html, body {
 }
 
 #home .panel {
-  opacity: 0.5;
+  opacity: 1.0;
 }
 
 #information .panel {
-  opacity: 0.85;
+  opacity: 1.0;
 }
 
 #portfolio {
@@ -102,9 +102,9 @@ html, body {
 }
 
 #social {
-  background: url(http://www.cf-mil-oss.org/images/camo2.jpg) no-repeat center center fixed; 
+  background: url(http://www.cf-mil-oss.org/images/camo.jpg) no-repeat center center fixed; 
   display: table;
-  height: 400px;
+  height: 250px;
   position: relative;
   width: 100%;
   -webkit-background-size: cover;
@@ -118,7 +118,7 @@ html, body {
 }
 
 footer {
-  padding: 20px 0;
+  padding: 0px 0;
 }
 footer .glyphicon {
   color: #333333;
