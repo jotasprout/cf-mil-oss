@@ -20,9 +20,7 @@ html, body {
 .pad-section {
   padding: 50px 0;
 }
-.pad-section img {
-  width: 100%;
-}
+
 
 /* vertical-centered text */
 .text-vcenter {
@@ -38,8 +36,17 @@ html, body {
 }
 
 /* additional sections */
+#camo-grad {
+  background: url(http://www.cf-mil-oss.org/images/camo-grad2.png) no-repeat center center fixed; 
+  width: 100%;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;  
+}
+
 #home {
-  background: url(http://www.cf-mil-oss.org/images/digital_camo_HiveLight.png) no-repeat center center fixed; 
+  background: url(http://www.cf-mil-oss.org/images/digital_camo_HiveLight2.png) no-repeat center center fixed; 
   display: table;
   height: 100%;
   position: relative;
